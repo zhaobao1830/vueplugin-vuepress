@@ -21,7 +21,6 @@ module.exports = {
               path: 'introduction',
               collapsable: false
             },
-            'button',
             'loading'
           ]
         }

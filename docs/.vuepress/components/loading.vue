@@ -17,13 +17,13 @@
   export default {
     name: 'loading',
     props: {
-      title: {
-        type: String,
-        default: '正在载入...'
-      },
       titleShow: {
         type: Boolean,
         default: true
+      },
+      title: {
+        type: String,
+        default: '正在载入...'
       },
       imgStyle: {
         type: Object,

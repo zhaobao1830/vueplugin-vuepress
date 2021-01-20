@@ -21,11 +21,13 @@ module.exports = {
               path: 'introduction',
               collapsable: false
             },
-            'button'
+            'button',
+            'loading'
           ]
         }
       ]
-    }
+    },
+    sidebarDepth: 1
   },
   plugins: [
     // 回到顶部

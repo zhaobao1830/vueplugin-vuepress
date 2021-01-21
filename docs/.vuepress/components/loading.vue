@@ -36,7 +36,7 @@
       },
       imgSrc: {
         type: String,
-        default: require('../public/loading.gif')
+        default: require('../public/loading/loading.gif')
       }
     }
   }

@@ -18,7 +18,7 @@ sidebarDepth: 2
 | titleShow    | 是否显示title | boolean    | — | true |
 | title        | title值      | string     | — | 正在载入... |
 | imgStyle     | 图片样式      | object     | — | {width: 24, height: 24} |
-| imgSrc        | 图片路径     | string     | — | require('../public/loading.gif') |
+| imgSrc        | 图片路径     | string     | — | require('../public//loading/loading.gif') |
 
 ::: tip  温馨提示
 imgStyle是个对象，里面包含图片的width和height，可以只传一个值

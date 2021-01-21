@@ -21,7 +21,8 @@ module.exports = {
               path: 'introduction',
               collapsable: false
             },
-            'loading'
+            'loading',
+            'footer'
           ]
         }
       ]

@@ -22,7 +22,8 @@ module.exports = {
               collapsable: false
             },
             'loading',
-            'footer'
+            'base-footer',
+            'basButton'
           ]
         }
       ]

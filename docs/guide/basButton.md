@@ -1,0 +1,14 @@
+---
+title: basButton   
+sidebarDepth: 2
+---
+
+## button
+
+::: tip  温馨提示
+该组件是以vant框架为基础封装的
+:::
+
+<basButton slot="source"></basButton>
+
+<<< docs/.vuepress/components/basButton.vue

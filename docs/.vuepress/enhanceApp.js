@@ -1,6 +1,8 @@
 // 用来进行vue的配置，比如vue全局注册
 import Vue from 'vue'
 import Loading from "./components/loading"
+import Vant from 'vant'
+import 'vant/lib/index.css'
 
 export default ({
   Vue, // VuePress 正在使用的 Vue 构造函数
@@ -8,6 +10,7 @@ export default ({
   router, // 当前应用的路由实例
   siteData // 站点元数据
 }) => {
+  Vue.use(Vant);
   Register()
 }
 

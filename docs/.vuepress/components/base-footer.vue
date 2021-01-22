@@ -67,7 +67,9 @@
       // 展示的列表，包含名称、选中/未选中的图标、跳转的路径
       footerTabbarList: {
         type: Array,
-        default: defaultFooterTabbarList
+        default: function () {
+          return defaultFooterTabbarList
+        }
       }
     }
   }
@@ -75,7 +77,7 @@
 
 <style scoped lang="scss">
   .base-footer{
-    position: absolute;
+    position: relative;
     height: 50px;
     width: 100%;
     bottom: 0;

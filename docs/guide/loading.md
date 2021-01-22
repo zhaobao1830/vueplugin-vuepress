@@ -7,10 +7,13 @@ sidebarDepth: 2
 
 加载数据时显示
 
-<loading slot="source"></loading>
+<loading></loading>
+
+<component-block>
 
 <<< docs/.vuepress/components/loading.vue
 
+</component-block>
 ### Props
 
 | 参数          | 说明            | 类型            | 可选值                 | 默认值   |

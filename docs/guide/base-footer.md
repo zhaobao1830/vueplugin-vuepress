@@ -11,15 +11,17 @@ sidebarDepth: 2
 
 ![Image text](../.vuepress/public/footer/demo.png)
 
-<base-footer slot="source"></base-footer>
+<component-block>
+
 <<< docs/.vuepress/components/base-footer.vue
 
+</component-block>
 ### Props
 
 | 参数          | 说明            | 类型            | 可选值                 | 默认值   |
 |-------------  |---------------- |---------------- |---------------------- |-------- |
 | active    | 当前选中的名称或索引值 | number或stirng    | — | 0或'0' |
-| footerTabbarList    | 展示列表， | Array    | — | [] |
+| footerTabbarList    | 展示列表 | Array    | — | [] |
 
 ::: tip  温馨提示
 footerTabbarList包含名称、选中/未选中的图标、跳转的路径

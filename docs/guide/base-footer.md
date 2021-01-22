@@ -9,6 +9,7 @@ sidebarDepth: 2
 该组件是以vant框架为基础封装的
 ::: 
 
-<basButton slot="source"></basButton>
+![Image text](../.vuepress/public/footer/demo.png)
 
-<<< docs/.vuepress/components/basButton.vue
+<base-footer slot="source"></base-footer>
+<<< docs/.vuepress/components/base-footer.vue

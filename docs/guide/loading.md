@@ -11,7 +11,7 @@ sidebarDepth: 2
 
 <<< docs/.vuepress/components/loading.vue
 
-### Attributes
+### Props
 
 | 参数          | 说明            | 类型            | 可选值                 | 默认值   |
 |-------------  |---------------- |---------------- |---------------------- |-------- |

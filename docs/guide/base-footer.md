@@ -13,3 +13,10 @@ sidebarDepth: 2
 
 <base-footer slot="source"></base-footer>
 <<< docs/.vuepress/components/base-footer.vue
+
+### Props
+
+| 参数          | 说明            | 类型            | 可选值                 | 默认值   |
+|-------------  |---------------- |---------------- |---------------------- |-------- |
+| active    | 当前选中的名称或索引值 | number或stirng    | — | 0或'0' |
+| footerTabbarList    | 展示列表，包含名称、选中/未选中的图标、跳转的路径 | Array    | — | [] |

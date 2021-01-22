@@ -61,8 +61,8 @@
     props: {
       // 当前选中的名称或索引值
       active: {
-        type: Number,
-        default: 0
+        type: Number|String,
+        default: 0 | '0'
       },
       // 展示的列表，包含名称、选中/未选中的图标、跳转的路径
       footerTabbarList: {

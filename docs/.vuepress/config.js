@@ -23,7 +23,8 @@ module.exports = {
               collapsable: false
             },
             'loading',
-            'base-footer'
+            'base-footer',
+            'base-scroll'
           ]
         }
       ]

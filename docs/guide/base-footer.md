@@ -16,6 +16,7 @@ sidebarDepth: 2
 <<< docs/.vuepress/components/base-footer.vue
 
 </component-block>
+
 ### Props
 
 | 参数          | 说明            | 类型            | 可选值                 | 默认值   |

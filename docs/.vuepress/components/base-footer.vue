@@ -1,7 +1,7 @@
 <template>
   <div class="base-footer">
     <van-tabbar
-        v-model="active"
+        v-model="activeIndex"
         active-color="#07A37B"
         inactive-color="#999999"
         route
@@ -70,6 +70,12 @@
         default: function () {
           return defaultFooterTabbarList
         }
+      }
+    },
+    data() {
+      return {
+        // vant框架的tabbar传入的值必须是data里定义的
+        activeIndex: this.active
       }
     }
   }

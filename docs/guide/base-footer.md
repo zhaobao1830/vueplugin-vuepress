@@ -21,8 +21,16 @@ sidebarDepth: 2
 
 | 参数          | 说明            | 类型            | 可选值                 | 默认值   |
 |-------------  |---------------- |---------------- |---------------------- |-------- |
-| active    | 当前选中的名称或索引值 | number或stirng    | — | 0或'0' |
+| activeIndex    | 当前选中的名称或索引值 | number    | — | 0 |
 | footerTabbarList    | 展示列表 | Array    | — | [] |
+
+::: tip  温馨提示
+有问题，activeIndex不对
+:::
+
+::: tip  温馨提示
+activeIndex vant框架的tabbar传入的值必须是data里定义的
+:::
 
 ::: tip  温馨提示
 footerTabbarList包含名称、选中/未选中的图标、跳转的路径

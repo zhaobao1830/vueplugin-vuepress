@@ -21,7 +21,7 @@ sidebarDepth: 2
 
 | 参数          | 说明            | 类型            | 可选值                 | 默认值   |
 |-------------  |---------------- |---------------- |---------------------- |-------- |
-| activeIndex    | 当前选中的名称或索引值 | number    | — | 0 |
+| activeIndex    | 选中标签的索引值 | [number, string]    | — | 0 |
 | footerTabbarList    | 展示列表 | Array    | — | [] |
 
 ::: tip  温馨提示

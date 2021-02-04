@@ -7,7 +7,7 @@
     "dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "gh-pages -d dist -m deploy",
-    "deploy:build": "npm run build && npm run deploy"
+    "build": "npm run build && npm run deploy"
   },
   "devDependencies": {
     "@better-scroll/core": "^2.1.1",

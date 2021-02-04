@@ -4,7 +4,7 @@ module.exports = {
   title: pkg.name,
   description: 'vue插件文档',
   dest: './dist',   // 设置输出目录
-  base: '/plugin/',
+  base: '/',
   themeConfig: {
     nav: [
       { text: '主页', link: '/' },

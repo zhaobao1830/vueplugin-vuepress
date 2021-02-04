@@ -3,8 +3,8 @@ const pkg = require('../../package.json')
 module.exports = {
   title: pkg.name,
   description: 'vue插件文档',
-  dest: './dist',   // 设置输出目录1
-  base: '/',
+  dest: 'dist',   // 设置输出目录1
+  base: '/vueplugin-vuepress/',
   themeConfig: {
     nav: [
       { text: '主页', link: '/' },

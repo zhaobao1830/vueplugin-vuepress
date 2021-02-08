@@ -49,9 +49,9 @@
   import BScroll from '@better-scroll/core'
   import PullDown from '@better-scroll/pull-down'
   import Pullup from '@better-scroll/pull-up'
-  import { getRect } from '@/core/utils/dom'
-  import { camelize } from '@/core/lang/string'
-  import { USE_TRANSITION } from '@/core/bscroll/constants'
+  import { getRect } from '../js/base-scroll/dom'
+  import { camelize } from '../js/base-scroll/string'
+  import { USE_TRANSITION } from '../js/base-scroll/constants'
 
   BScroll.use(PullDown)
   BScroll.use(Pullup)

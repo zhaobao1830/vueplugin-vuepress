@@ -49,9 +49,9 @@
   import BScroll from '@better-scroll/core'
   import PullDown from '@better-scroll/pull-down'
   import Pullup from '@better-scroll/pull-up'
-  import { getRect } from '../js/base-scroll/dom'
-  import { camelize } from '../js/base-scroll/string'
-  import { USE_TRANSITION } from '../js/base-scroll/constants'
+  import { getRect } from '@/core/utils/dom'
+  import { camelize } from '@/core/lang/string'
+  import { USE_TRANSITION } from '@/core/bscroll/constants'
 
   BScroll.use(PullDown)
   BScroll.use(Pullup)
@@ -79,7 +79,7 @@
   const EVENT_PULLING_UP = 'pulling-up'
 
   export default {
-    name: 'base-scroll',
+    name: 'baseScrolls',
     inject: {
       parentScroll: {
         default: null
@@ -535,11 +535,11 @@
         .after-trigger{
           .loading {
             padding: 8px 0;
-            font-size: 12px;
+            font-size: 14px;
           }
           .base-scroll-pulldown-loaded{
             padding: 8px 0;
-            font-size: 12px;
+            font-size: 14px;
           }
         }
       }
